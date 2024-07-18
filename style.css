@@ -346,7 +346,7 @@ section h2{
     margin-bottom: 400px;
     padding-right: 120px;
     padding-top: 50px;
-    padding-bottom: 250px;
+    padding-bottom: 500px;
     order: 2; /* Move "About Me" section below "Projects" */
   }
   .aboutMe img{
