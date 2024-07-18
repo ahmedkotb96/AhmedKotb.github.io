@@ -276,3 +276,102 @@ section h2{
 .footer span{
   color: rgb(9, 9, 67);
 }
+@media (max-width: 480px) {
+    header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 1.2em;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction:row;
+    gap: 10px; /* Add gap between navigation links */
+  }
+
+  .navigation a {
+    padding: 10px 0;
+    font-size: 1em;
+  }
+.fooq a{
+  margin-left: -150px;
+}
+  .main {
+    flex-direction: column;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .main h2, .main h3, .main-btn {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+
+  .main-btn {
+    padding: 10px 20px;
+    margin-left: 0;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .aboutMe {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1300px;
+    margin-left: -100px;
+    padding: 20px;
+    order: 2; /* Move "About Me" section below "Projects" */
+  }
+
+  .projects {
+    order: 1; /* Ensure "Projects" section comes first */
+  }
+
+  .aboutMe img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .card-contact {
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    padding: 20px;
+  }
+.contact h2{
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+.card-contact{ 
+  margin-left: -85px;
+}
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 350px;
+    padding-right: 25px ;
+    padding-left: 25px;
+  }
+
+  /* Container for Projects and About Me sections */
+  .projects-about-container {
+    display: flex;
+    flex-direction: column-reverse; /* Change the order */
+  }
+}
