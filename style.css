@@ -308,7 +308,7 @@ section h2{
   }
   .main{
     width: 100%;
-    min-height: 100vh;
+    min-height: 120vh;
     align-items: center;
     background: url(000.png) no-repeat;
     background-size: auto;
@@ -316,7 +316,7 @@ section h2{
     background-attachment: fixed;
   }
   .projects{
-    padding-bottom: 1159px;
+    padding-bottom: 1250px;
   }
   .main h2, .main h3, .main-btn {
     font-size: 1em;
@@ -341,8 +341,9 @@ section h2{
   .aboutMe {
     width: 75%;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 400px;
     margin-left: -100px;
+    margin-bottom: 400px;
     padding-right: 120px;
     padding-top: 50px;
     padding-bottom: 90px;
