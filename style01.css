@@ -1,0 +1,23 @@
+
+.main{
+  width: 100%;
+  min-width: 200vh;
+  min-height: 200vh;
+  align-items: center;
+  background: url(3rd\ sec.png) no-repeat;
+  background-position: 3000px 3000px
+  background-attachment: fixed;
+  }
+  h1{
+    color: rgb(0, 255, 242);
+  }
+  h3{
+    color: rgb(43, 226, 119);
+  }
+  @media (max-width: 480px) {
+    .main{
+   width: 100%;
+    background: url(3rd\ sec.png) no-repeat;
+   background-size: 500px;
+    }
+  }
